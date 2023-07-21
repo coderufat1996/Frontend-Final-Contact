@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .header1 {
+    display: none;
+  }
+  .header3 {
+    display: flex;
+
+    .logo {
+    }
+
+    .Headnav {
+      display: none;
+      width: 0vw;
+      height: 0vh;
+      .Sp1 {
+        display: none;
+        .sp1a {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Headerbuttons {
+    display: flex;
+    justify-content: end;
+    button {
+      width: 20%;
+    }
+    a {
+      width: 0%;
+      z-index: -1;
+    }
+  }
+  .im11 {
+    width: 100vw;
+    height: 20vh;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    .div1 {
+      width: 100vw;
+      flex-direction: column;
+      .cont {
+        width: 100vw;
+        .im1 {
+          width: 100vw;
+        }
+        .im2 {
+          width: 80vw;
+        }
+        p {
+          position: relative;
+        }
+        a {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .header3 {
+    padding: 30px 40px;
+    img {
+      margin-left: 14%;
+    }
+  }
+  .im11 {
+    width: 99.1vw;
+    height: 40vh;
+  }
+  .Headerbuttons .a1 {
+    margin-right: 15px;
+
+    width: 140px;
+    height: 55px;
+
+    padding-top: 10px;
+    font-weight: 700;
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .header1 {
+    display: flex;
+  }
+}

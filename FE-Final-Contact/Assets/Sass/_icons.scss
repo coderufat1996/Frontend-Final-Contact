@@ -1,0 +1,330 @@
+.gg-time {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px currentColor;
+  }
+  
+  .gg-time::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    top: 1px;
+    left: 5px;
+  }
+  .gg-menu-left {
+    transform: scale(var(--ggs, 1));
+    margin-right: 10px;
+  }
+  
+  .gg-menu-left,
+  .gg-menu-left::after,
+  .gg-menu-left::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor;
+  }
+  
+  .gg-menu-left::after,
+  .gg-menu-left::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    width: 10px;
+  }
+  
+  .gg-menu-left::after {
+    top: 6px;
+    width: 14px;
+  }
+  .gg-mail,
+  .gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 15px;
+    border: 2px solid;
+  }
+  .gg-mail {
+    overflow: hidden;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+  }
+  .gg-time {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px currentColor;
+}
+
+.gg-time::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  top: 1px;
+  left: 5px;
+}
+.gg-menu-left {
+  transform: scale(var(--ggs, 1));
+  margin-right: 10px;
+}
+
+.gg-menu-left,
+.gg-menu-left::after,
+.gg-menu-left::before {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor;
+}
+
+.gg-menu-left::after,
+.gg-menu-left::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  width: 10px;
+}
+
+.gg-menu-left::after {
+  top: 6px;
+  width: 14px;
+}
+.gg-mail,
+.gg-mail::after {
+  display: block;
+  box-sizing: border-box;
+  height: 15px;
+  border: 2px solid;
+}
+.gg-mail {
+  overflow: hidden;
+  transform: scale(var(--ggs, 1));
+  position: relative;
+  width: 18px;
+  border-radius: 2px;
+  color: white;
+  margin-right: 10px;
+}
+
+.gg-mail::after {
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+  width: 14px;
+  transform: rotate(-45deg);
+  bottom: 3px;
+}
+.gg-format-left,
+.gg-format-left::before {
+  display: block;
+  box-sizing: border-box;
+  height: 2px;
+  background: currentColor;
+  border-radius: 3px;
+  box-shadow: 0 8px 0;
+}
+
+.gg-format-left {
+  margin-top: -11px;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+}
+
+.gg-format-left::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  top: 4px;
+  left: 0;
+}
+.gg-facebook {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+}
+.gg-facebook::after,
+.gg-facebook::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+.gg-facebook::before {
+  width: 8px;
+  height: 20px;
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-top-left-radius: 5px;
+  left: 6px;
+}
+.gg-facebook::after {
+  width: 10px;
+  height: 4px;
+  background: currentColor;
+  top: 7px;
+  left: 4px;
+  transform: skew(-5deg);
+}
+.gg-instagram {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.gg-instagram::after,
+.gg-instagram::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.gg-instagram::after {
+  border: 2px solid;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  top: 3px;
+}
+
+.gg-instagram::before {
+  border-radius: 3px;
+  width: 2px;
+  height: 2px;
+  background: currentColor;
+  right: 1px;
+  top: 1px;
+}
+.gg-youtube {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 10px;
+  box-shadow: 0 0 0 2px;
+  border-radius: 15px 15px 15px 15px / 45px 45px 45px 45px;
+}
+
+.gg-youtube::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  border-left: 4px solid currentColor;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px;
+  }
+  
+  .gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px;
+  }
+  .gg-arrow-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .gg-arrow-right::after,
+  .gg-arrow-right::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 3px;
+  }
+  
+  .gg-arrow-right::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 7px;
+  }
+  
+  .gg-arrow-right::before {
+    width: 16px;
+    height: 2px;
+    bottom: 10px;
+    background: currentColor;
+  }
